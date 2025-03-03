@@ -1,0 +1,194 @@
+    transform    transform: translate(-10%, -10%);
+: translate(-10%, -10%);
+    transform: translate(-10%, -10%);
+@charset "utf-8";
+/* CSS Document */
+
+.poiret-one-regular {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* CSS Document */
+
+body {
+    font-family: 'Poiret One', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(40deg, #7F7CAF, #F2D5F8);
+    color: #2e2e2e;
+}
+
+header   {
+	position: fixed; /* Fija el div en la pantalla */
+    top: 0%;
+    left: 10%;
+    transform: translate(-10%, -10%); 
+    width: 100%; 
+    background-color: #F2D5F8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+	font-family: Poiret One, serif;
+	padding: 15px;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+   .boton {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #F2D5F8;
+            background-color: #7D426C;
+            padding: 15px 30px;
+            border-radius: 10px;
+            border: none;
+            display: inline-block;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .boton:hover {
+            background-color: #461339;
+            transform: scale(1.1);
+}
+
+
+nav {
+   background-color: #7F7CAF;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 120px; 
+	
+}
+nav ul  {
+    list-style: georgian;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    transition: color 0.3s;
+    
+}
+nav ul li a:hover {
+    color: #F2D5F8;
+}
+
+#nav-boton {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #4A148C;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-boton:hover {
+    background-color: #311B92;
+    transform: scale(1.1);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+section, aside {
+    background: #7b0828;
+	color: white;
+    padding-top: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.div contenedor {
+	
+	align-content: center;
+}
+
+section {
+    flex: 2;
+    border-left: 10px solid #ff4081;
+    display: compact;
+    float: left;
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+    border-left: 10px solid #6200ea;
+    padding-top: 5px;
+}
+
+img {
+    max-width: auto;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    transform: translate(-10%, -10%);
+    float: left;
+    margin-left: 40px;
+}
+
+.grid-container {
+    margin-top: 100px;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: 10px;
+    justify-content: center;
+}
+
+/* TARJETAS DE IMAGEN */
+.grid-item {
+    background: #461339;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	
+}
+
+.grid-item:hover {
+    transform: scale(20);
+}
+
+/* IMÁGENES DENTRO DE LAS TARJETAS */
+.grid-item img {
+    width: 100%;  /* Se adapta al ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción original */
+    max-height: 200px; /* Ajusta la altura máxima si es necesario */
+    object-fit: cover; /* Evita distorsión y recorta si es necesario */
+    border-radius: 10px;
+}
+
+footer {
+    background: #7F7CAF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

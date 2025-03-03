@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.poiret-one-regular {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* CSS Document */
+header   {
+	position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #F2D5F8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+	font-family: Poiret One, serif;
+}
+   .boton {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #F2D5F8;
+            background-color: #7D426C;
+            padding: 15px 30px;
+            border-radius: 10px;
+            border: none;
+            display: inline-block;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .boton:hover {
+            background-color: #461339;
+            transform: scale(1.1);
+}
